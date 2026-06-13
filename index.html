@@ -1,714 +1,946 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ═══ PRIMARY SEO META ═══ -->
+<title>Dikshant Lather | Cybersecurity Consultant — Azure, GitHub Security & Risk Advisory</title>
+<meta name="description" content="Dikshant Sharma is a certified cybersecurity consultant specializing in Azure Security, GitHub Advanced Security, Zero Trust architecture, and enterprise risk advisory. SC-200, AZ-900, AI-900 certified.">
+<meta name="keywords" content="cybersecurity consultant, Azure security, GitHub Advanced Security, Zero Trust, SIEM, Microsoft Sentinel, SC-200, risk advisory, cloud security, IAM, DevSecOps, cybersecurity India">
+<meta name="author" content="Dikshant Sharma">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="theme-color" content="#080E17">
+<link rel="canonical" href="https://YOUR_DOMAIN.com/">
+
+<!-- ═══ OPEN GRAPH (LinkedIn, Facebook, WhatsApp previews) ═══ -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Dikshant Sharma | Cybersecurity Consultant">
+<meta property="og:description" content="Certified cybersecurity consultant — Azure Security, GitHub Advanced Security, Zero Trust, and enterprise risk advisory. 8 Microsoft certifications.">
+<meta property="og:url" content="https://YOUR_DOMAIN.com/">
+<meta property="og:site_name" content="Dikshant Sharma — Cybersecurity Consultant">
+<meta property="og:image" content="https://YOUR_DOMAIN.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dikshant Sharma — Cybersecurity Consultant Portfolio">
+<meta property="og:locale" content="en_IN">
+<meta property="profile:first_name" content="Dikshant">
+<meta property="profile:last_name" content="Sharma">
+<meta property="profile:username" content="Dikshant-7990">
+
+<!-- ═══ TWITTER / X CARD ═══ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dikshant Sharma | Cybersecurity Consultant">
+<meta name="twitter:description" content="Certified cybersecurity consultant — Azure Security, GitHub Advanced Security, Zero Trust, and enterprise risk advisory.">
+<meta name="twitter:image" content="https://YOUR_DOMAIN.com/og-image.png">
+<meta name="twitter:creator" content="@YOUR_TWITTER">
+
+<!-- ═══ STRUCTURED DATA — Person Schema (Google Rich Results) ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dikshant Sharma",
+  "jobTitle": "Cybersecurity Consultant",
+  "description": "Certified cybersecurity consultant specializing in Azure Security, GitHub Advanced Security, Zero Trust architecture, SIEM, and enterprise risk advisory.",
+  "url": "https://YOUR_DOMAIN.com",
+  "sameAs": [
+    "https://linkedin.com/in/YOUR_HANDLE",
+    "https://github.com/Dikshant-7990",
+    "https://medium.com/@YOUR_HANDLE",
+    "https://learn.microsoft.com/en-us/users/Dikshant-7990/"
+  ],
+  "knowsAbout": ["Cybersecurity","Azure Security","Zero Trust","SIEM","GitHub Advanced Security","Risk Advisory","Cloud Security","IAM","ISO 27001","NIST CSF"],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Security Operations Analyst Associate (SC-200)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Security, Compliance & Identity Fundamentals (SC-900)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Azure Fundamentals (AZ-900)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Azure AI Fundamentals (AI-900)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "GitHub Advanced Security Certified", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "GitHub Foundations Certified", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "GitHub Copilot Certified", "credentialCategory": "Professional Certification" }
+  ],
+  "offers": {
+    "@type": "Service",
+    "name": "Cybersecurity Consulting",
+    "description": "Enterprise cybersecurity advisory covering Azure Security, Zero Trust, SIEM, GitHub Advanced Security, and risk compliance.",
+    "areaServed": "Worldwide",
+    "serviceType": "Cybersecurity Consulting"
+  }
+}
+</script>
+
+<!-- ═══ STRUCTURED DATA — WebSite Schema ═══ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dikshant Sharma — Cybersecurity Consultant",
+  "url": "https://YOUR_DOMAIN.com",
+  "description": "Portfolio and consulting website of Dikshant Sharma, certified cybersecurity consultant.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://YOUR_DOMAIN.com/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- ═══ PERFORMANCE: Preconnect & Font Preload ═══ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Inter',sans-serif;background:#080E17;color:#F0F4F8;overflow-x:hidden;}
+:root{
+  --bg:#080E17;
+  --bg2:#0D1520;
+  --panel:#111D2C;
+  --panel2:#152233;
+  --blue:#2563EB;
+  --blue2:#3B82F6;
+  --blue3:#60A5FA;
+  --gold:#C9A84C;
+  --gold2:#E2BD6A;
+  --white:#F0F4F8;
+  --muted:#64748B;
+  --muted2:#94A3B8;
+  --border:rgba(255,255,255,0.07);
+  --border2:rgba(37,99,235,0.3);
+}
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--blue);border-radius:2px;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:0 2rem;transition:all 0.3s;}
+nav.scrolled{background:rgba(8,14,23,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px;}
+.nav-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--white);letter-spacing:-0.5px;cursor:pointer;text-decoration:none;}
+.nav-logo span{color:var(--gold);}
+.nav-links{display:flex;gap:2rem;align-items:center;}
+.nav-links a{font-size:13px;color:var(--muted2);text-decoration:none;font-weight:500;transition:color 0.2s;}
+.nav-links a:hover{color:var(--white);}
+.nav-cta{background:var(--blue)!important;color:#fff!important;padding:9px 20px!important;border-radius:8px!important;}
+.nav-cta:hover{background:var(--blue2)!important;}
+
+/* HERO */
+#hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;padding-top:68px;}
+.grid-lines{position:absolute;inset:0;background-image:linear-gradient(rgba(37,99,235,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(37,99,235,0.04) 1px,transparent 1px);background-size:60px 60px;}
+.hero-glow{position:absolute;top:20%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(37,99,235,0.12) 0%,transparent 70%);pointer-events:none;}
+.scan{position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent 0%,rgba(37,99,235,0.5) 30%,rgba(96,165,250,0.8) 50%,rgba(37,99,235,0.5) 70%,transparent 100%);animation:scanAnim 5s linear infinite;top:0;}
+@keyframes scanAnim{0%{top:-2px;opacity:0;}5%{opacity:1;}95%{opacity:1;}100%{top:100%;opacity:0;}}
+.hero-content{position:relative;text-align:center;max-width:820px;padding:2rem;}
+.hero-badge{display:inline-flex;align-items:center;gap:10px;background:rgba(37,99,235,0.08);border:1px solid rgba(37,99,235,0.2);border-radius:30px;padding:8px 20px;font-size:12px;color:var(--blue3);font-weight:500;margin-bottom:2rem;letter-spacing:0.8px;text-transform:uppercase;animation:fadeDown 0.8s ease both;}
+.badge-dot{width:7px;height:7px;background:#22C55E;border-radius:50%;animation:pulse 2s infinite;flex-shrink:0;}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,0.4);}50%{box-shadow:0 0 0 6px rgba(34,197,94,0);}}
+h1.hero-title{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.8rem,5.5vw,4.5rem);font-weight:700;line-height:1.05;color:var(--white);margin-bottom:1.5rem;letter-spacing:-2px;animation:fadeUp 0.8s 0.1s ease both;}
+h1.hero-title .accent{background:linear-gradient(135deg,var(--gold),var(--gold2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:1.15rem;color:var(--muted2);line-height:1.8;max-width:600px;margin:0 auto 2.5rem;font-weight:400;animation:fadeUp 0.8s 0.2s ease both;}
+.hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;animation:fadeUp 0.8s 0.3s ease both;}
+.btn-primary{background:var(--blue);color:#fff;padding:15px 32px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:none;cursor:pointer;transition:all 0.25s;display:inline-flex;align-items:center;gap:10px;}
+.btn-primary:hover{background:var(--blue2);transform:translateY(-2px);box-shadow:0 8px 24px rgba(37,99,235,0.35);}
+.btn-ghost{background:transparent;color:var(--white);padding:15px 32px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid rgba(255,255,255,0.12);cursor:pointer;transition:all 0.25s;display:inline-flex;align-items:center;gap:10px;}
+.btn-ghost:hover{border-color:rgba(96,165,250,0.5);color:var(--blue3);}
+.hero-metrics{display:flex;gap:0;justify-content:center;margin-top:4rem;padding-top:3rem;border-top:1px solid var(--border);animation:fadeUp 0.8s 0.4s ease both;}
+.metric{text-align:center;padding:0 2.5rem;border-right:1px solid var(--border);}
+.metric:last-child{border-right:none;}
+.metric-num{font-family:'Space Grotesk',sans-serif;font-size:2.2rem;font-weight:700;color:var(--white);line-height:1;}
+.metric-label{font-size:11px;color:var(--muted);margin-top:6px;letter-spacing:1px;text-transform:uppercase;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-12px);}to{opacity:1;transform:translateY(0);}}
+
+/* REVEAL */
+.reveal{opacity:0;transform:translateY(32px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.active{opacity:1;transform:translateY(0);}
+.reveal-delay-1{transition-delay:0.1s;}
+.reveal-delay-2{transition-delay:0.2s;}
+.reveal-delay-3{transition-delay:0.3s;}
+.reveal-delay-4{transition-delay:0.4s;}
+
+/* SECTIONS */
+section{padding:7rem 2rem;}
+.container{max-width:1200px;margin:0 auto;}
+.eyebrow{font-size:11px;font-weight:600;color:var(--blue3);letter-spacing:3px;text-transform:uppercase;margin-bottom:1rem;display:flex;align-items:center;gap:10px;}
+.eyebrow::before{content:'';width:24px;height:1px;background:var(--blue3);}
+.section-title{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:700;color:var(--white);margin-bottom:1rem;letter-spacing:-1px;line-height:1.15;}
+.section-sub{color:var(--muted2);font-size:1rem;line-height:1.8;max-width:520px;}
+
+/* ABOUT */
+#about{background:var(--bg2);}
+.about-wrap{display:grid;grid-template-columns:1fr 1.8fr;gap:6rem;align-items:center;}
+.avatar-box{position:relative;width:fit-content;}
+.avatar{width:300px;height:300px;border-radius:20px;background:var(--panel);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+.avatar-initials{font-family:'Space Grotesk',sans-serif;font-size:90px;font-weight:700;color:rgba(37,99,235,0.3);position:relative;z-index:1;}
+.avatar::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 30%,rgba(37,99,235,0.12),transparent 70%);}
+.avatar-badge{position:absolute;bottom:-12px;right:-12px;background:var(--blue);color:#fff;font-size:11px;font-weight:700;padding:8px 16px;border-radius:10px;letter-spacing:1px;border:2px solid var(--bg2);}
+.about-body .role{color:var(--gold);font-size:14px;font-weight:600;letter-spacing:0.5px;margin-bottom:1.5rem;}
+.about-body p{color:var(--muted2);line-height:1.9;font-size:15px;margin-bottom:1.25rem;}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:1.5rem;}
+.tag{background:rgba(37,99,235,0.08);border:1px solid rgba(37,99,235,0.18);color:var(--blue3);font-size:12px;padding:5px 14px;border-radius:20px;font-weight:500;transition:all 0.2s;}
+.tag:hover{background:rgba(37,99,235,0.15);border-color:rgba(37,99,235,0.4);}
+
+/* CERTIFICATIONS */
+#certifications{background:var(--bg);}
+.certs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem;margin-top:2.5rem;}
+.cert-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.5rem;display:flex;align-items:flex-start;gap:1rem;cursor:pointer;transition:all 0.25s;text-decoration:none;}
+.cert-card:hover{border-color:var(--border2);transform:translateY(-3px);box-shadow:0 12px 32px rgba(37,99,235,0.12);}
+.cert-icon{width:48px;height:48px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px;}
+.cert-ms{background:rgba(0,120,212,0.12);border:1px solid rgba(0,120,212,0.2);}
+.cert-gh{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);}
+.cert-body h3{font-size:13px;font-weight:600;color:var(--white);line-height:1.4;margin-bottom:4px;}
+.cert-body span{font-size:11px;color:var(--blue3);font-weight:500;letter-spacing:0.5px;}
+.cert-verify{font-size:11px;color:var(--muted);margin-top:6px;display:flex;align-items:center;gap:4px;}
+.cert-verify i{color:#22C55E;}
+
+/* SKILLS */
+#skills{background:var(--bg2);}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.25rem;margin-top:3rem;}
+.skill-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.5rem;transition:all 0.25s;}
+.skill-card:hover{border-color:var(--border2);transform:translateY(-2px);}
+.skill-icon-wrap{width:48px;height:48px;background:rgba(37,99,235,0.1);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:1.25rem;}
+.skill-card h3{font-size:14px;font-weight:600;color:var(--white);margin-bottom:0.5rem;}
+.skill-card p{font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:1rem;}
+.skill-bar{height:3px;background:rgba(255,255,255,0.06);border-radius:2px;overflow:hidden;}
+.skill-fill{height:100%;background:linear-gradient(90deg,var(--blue),var(--blue3));border-radius:2px;width:0;transition:width 1.6s cubic-bezier(0.4,0,0.2,1);}
+
+/* PROJECTS */
+#projects{background:var(--bg);}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.5rem;margin-top:3rem;}
+.proj-card{background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;transition:all 0.3s;}
+.proj-card:hover{border-color:var(--border2);transform:translateY(-4px);box-shadow:0 20px 48px rgba(0,0,0,0.4);}
+.proj-top{padding:1.5rem;border-bottom:1px solid var(--border);background:rgba(37,99,235,0.04);}
+.proj-type-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;}
+.proj-type{font-size:10px;font-weight:700;color:var(--blue3);letter-spacing:1.5px;text-transform:uppercase;}
+.proj-confidential{font-size:10px;color:var(--muted);display:flex;align-items:center;gap:4px;}
+.proj-body{padding:1.5rem;}
+.proj-body h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;color:var(--white);margin-bottom:0.75rem;line-height:1.4;}
+.proj-body p{font-size:13px;color:var(--muted2);line-height:1.75;margin-bottom:1.25rem;}
+.ptag-row{display:flex;flex-wrap:wrap;gap:6px;}
+.ptag{background:rgba(255,255,255,0.04);border:1px solid var(--border);color:var(--muted);font-size:11px;padding:3px 10px;border-radius:10px;}
+
+/* BLOG */
+#blog{background:var(--bg2);}
+.blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;margin-top:3rem;}
+.blog-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.75rem;transition:all 0.25s;display:flex;flex-direction:column;}
+.blog-card:hover{border-color:rgba(255,255,255,0.12);transform:translateY(-2px);}
+.blog-src{display:flex;align-items:center;gap:8px;margin-bottom:1.25rem;}
+.src-pill{font-size:10px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:1px;text-transform:uppercase;}
+.src-medium{background:rgba(255,255,255,0.07);color:#E8E8E8;border:1px solid rgba(255,255,255,0.1);}
+.src-linkedin{background:rgba(10,102,194,0.15);color:#60A5FA;border:1px solid rgba(10,102,194,0.25);}
+.blog-card h3{font-size:15px;font-weight:600;color:var(--white);line-height:1.5;margin-bottom:0.75rem;flex:1;}
+.blog-card p{font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:1.25rem;}
+.blog-footer{display:flex;align-items:center;justify-content:space-between;margin-top:auto;}
+.blog-meta{font-size:12px;color:var(--muted);}
+.blog-link{color:var(--blue3);font-size:13px;font-weight:600;text-decoration:none;display:flex;align-items:center;gap:5px;transition:gap 0.2s;}
+.blog-link:hover{gap:8px;}
+.follow-strip{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:2.5rem;}
+.follow-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:1.75rem;text-align:center;transition:border-color 0.2s;}
+.follow-card:hover{border-color:var(--border2);}
+.follow-card h4{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:600;color:var(--white);margin-bottom:0.5rem;}
+.follow-card p{font-size:13px;color:var(--muted);margin-bottom:1.25rem;}
+.btn-medium-sm{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.07);color:var(--white);padding:10px 22px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,0.1);transition:all 0.2s;}
+.btn-medium-sm:hover{background:rgba(255,255,255,0.12);}
+.btn-linkedin-sm{display:inline-flex;align-items:center;gap:8px;background:#0A66C2;color:#fff;padding:10px 22px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;transition:all 0.2s;}
+.btn-linkedin-sm:hover{background:#1a76d2;}
+
+/* TESTIMONIALS */
+#testimonials{background:var(--bg);}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem;margin-top:3rem;}
+.testi-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:2rem;transition:all 0.25s;}
+.testi-card:hover{border-color:var(--border2);}
+.stars{color:var(--gold);font-size:15px;margin-bottom:1.25rem;letter-spacing:2px;}
+.testi-quote{font-size:14px;color:#CBD5E1;line-height:1.85;margin-bottom:1.5rem;font-style:italic;position:relative;padding-left:1.25rem;}
+.testi-quote::before{content:'"';position:absolute;left:0;top:-4px;font-size:2rem;color:rgba(37,99,235,0.3);font-style:normal;line-height:1;}
+.testi-author{display:flex;align-items:center;gap:12px;}
+.testi-av{width:44px;height:44px;border-radius:50%;background:rgba(37,99,235,0.15);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:14px;color:var(--blue3);}
+.testi-name{font-weight:600;font-size:14px;color:var(--white);}
+.testi-role{font-size:12px;color:var(--muted);}
+
+/* CONSULT */
+#consult{background:var(--bg2);}
+.consult-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:3rem;}
+.c-card{background:var(--panel);border:1px solid var(--border);border-radius:16px;padding:2.25rem;transition:border-color 0.2s;}
+.c-card.highlight{border-color:rgba(37,99,235,0.4);}
+.c-eyebrow{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:1rem;}
+.c-eyebrow.free{color:#22C55E;}
+.c-eyebrow.paid{color:var(--gold);}
+.c-card h3{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700;color:var(--white);margin-bottom:0.75rem;}
+.c-card p{font-size:14px;color:var(--muted2);line-height:1.75;margin-bottom:1.75rem;}
+.c-list{list-style:none;margin-bottom:2rem;}
+.c-list li{font-size:13px;color:var(--muted2);padding:6px 0;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);}
+.c-list li:last-child{border:none;}
+.c-list li i{color:#22C55E;font-size:14px;}
+.btn-gold{display:block;text-align:center;background:var(--gold);color:#0D0D0D;padding:14px;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none;transition:all 0.25s;}
+.btn-gold:hover{background:var(--gold2);transform:translateY(-1px);}
+.btn-blue-outline{display:block;text-align:center;background:transparent;color:var(--blue3);padding:14px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--border2);transition:all 0.25s;}
+.btn-blue-outline:hover{background:rgba(37,99,235,0.08);}
+.book-note{font-size:12px;color:var(--muted);text-align:center;margin-top:0.75rem;}
+.li-strip{background:linear-gradient(135deg,rgba(10,102,194,0.1),rgba(37,99,235,0.05));border:1px solid rgba(10,102,194,0.25);border-radius:16px;padding:2.5rem;text-align:center;margin-top:3rem;}
+.li-strip h3{font-family:'Space Grotesk',sans-serif;font-size:1.5rem;color:var(--white);font-weight:700;margin-bottom:0.5rem;}
+.li-strip p{color:var(--muted2);margin-bottom:1.5rem;font-size:14px;}
+
+/* CONTACT */
+#contact{background:var(--bg);}
+.contact-wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:5rem;align-items:start;}
+.contact-left h2{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;color:var(--white);margin-bottom:1rem;letter-spacing:-0.5px;}
+.contact-left p{color:var(--muted2);line-height:1.85;margin-bottom:2rem;font-size:15px;}
+.contact-items{display:flex;flex-direction:column;gap:1rem;}
+.ci{display:flex;align-items:center;gap:14px;color:var(--muted2);font-size:14px;text-decoration:none;transition:color 0.2s;}
+.ci:hover{color:var(--white);}
+.ci-icon{width:40px;height:40px;background:var(--panel);border:1px solid var(--border);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.form-field{margin-bottom:1.25rem;}
+.form-field label{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-bottom:7px;letter-spacing:0.5px;text-transform:uppercase;}
+.form-field input,.form-field textarea,.form-field select{width:100%;background:var(--panel);border:1px solid var(--border);color:var(--white);padding:12px 16px;border-radius:10px;font-size:14px;font-family:'Inter',sans-serif;transition:border-color 0.2s;}
+.form-field input:focus,.form-field textarea:focus,.form-field select:focus{outline:none;border-color:var(--blue2);}
+.form-field textarea{min-height:120px;resize:vertical;}
+.form-field select option{background:var(--panel2);}
+.submit-btn{width:100%;background:var(--blue);color:#fff;padding:15px;border-radius:10px;font-weight:700;font-size:15px;border:none;cursor:pointer;transition:all 0.25s;display:flex;align-items:center;justify-content:center;gap:10px;}
+.submit-btn:hover{background:var(--blue2);transform:translateY(-1px);}
 
 
-    <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+/* COURSES SECTION */
+#courses{background:var(--bg);}
+.courses-intro{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem;flex-wrap:wrap;gap:1rem;}
+.courses-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.25rem;}
+.course-card{background:var(--panel);border:1px solid var(--border);border-radius:16px;overflow:hidden;cursor:pointer;transition:all 0.3s;text-decoration:none;display:block;}
+.course-card:hover{border-color:var(--border2);transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,0.4);}
+.course-thumb{position:relative;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.ct-bg1{background:linear-gradient(135deg,#0D1B2E,#1a3a5c);}
+.ct-bg2{background:linear-gradient(135deg,#0D1B2E,#1B2E0D);}
+.ct-bg3{background:linear-gradient(135deg,#0D1B2E,#2E0D1B);}
+.ct-bg4{background:linear-gradient(135deg,#0D1B2E,#2E2B0D);}
+.course-icon-big{font-size:44px;opacity:0.35;}
+.thumb-play-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.3);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity 0.3s;}
+.course-card:hover .thumb-play-overlay{opacity:1;}
+.play-circle{width:50px;height:50px;background:rgba(255,0,0,0.9);border-radius:50%;display:flex;align-items:center;justify-content:center;}
+.play-tri{width:0;height:0;border-top:12px solid transparent;border-bottom:12px solid transparent;border-left:19px solid #fff;margin-left:4px;}
+.vid-count{position:absolute;bottom:8px;right:8px;background:rgba(0,0,0,0.8);color:#fff;font-size:10px;font-weight:600;padding:3px 9px;border-radius:6px;}
+.course-level{position:absolute;top:8px;left:8px;font-size:10px;font-weight:700;padding:3px 10px;border-radius:10px;letter-spacing:0.5px;}
+.cl-beg{background:rgba(34,197,94,0.2);color:#4ADE80;border:1px solid rgba(34,197,94,0.3);}
+.cl-int{background:rgba(251,191,36,0.2);color:#FCD34D;border:1px solid rgba(251,191,36,0.3);}
+.cl-adv{background:rgba(239,68,68,0.2);color:#F87171;border:1px solid rgba(239,68,68,0.3);}
+.course-body{padding:1.25rem;}
+.course-cat{font-size:10px;font-weight:700;color:var(--blue3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:0.5rem;}
+.course-body h3{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--white);line-height:1.4;margin-bottom:0.5rem;}
+.course-body p{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:1rem;}
+.course-footer{display:flex;align-items:center;justify-content:space-between;}
+.course-stats{display:flex;gap:0.75rem;}
+.cs-item{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:3px;}
+.cs-item i{font-size:12px;color:var(--blue3);}
+.yt-chip{display:flex;align-items:center;gap:5px;background:rgba(255,0,0,0.1);color:#F87171;font-size:11px;padding:3px 9px;border-radius:10px;font-weight:600;}
+.courses-cta-bar{background:linear-gradient(135deg,rgba(255,0,0,0.08),rgba(37,99,235,0.04));border:1px solid rgba(255,0,0,0.15);border-radius:14px;padding:2rem;text-align:center;margin-top:2.5rem;}
+.courses-cta-bar h3{font-family:'Space Grotesk',sans-serif;font-size:1.3rem;color:var(--white);font-weight:700;margin-bottom:0.5rem;}
+.courses-cta-bar p{color:var(--muted2);font-size:14px;margin-bottom:1.25rem;}
+.btn-yt-main{display:inline-flex;align-items:center;gap:8px;background:#FF0000;color:#fff;padding:12px 26px;border-radius:10px;font-weight:700;font-size:14px;text-decoration:none;transition:all 0.2s;margin:0 6px;}
+.btn-yt-main:hover{background:#cc0000;transform:translateY(-1px);}
+.btn-courses-page{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--blue3);padding:12px 26px;border-radius:10px;font-weight:600;font-size:14px;text-decoration:none;border:1px solid var(--border2);transition:all 0.2s;margin:0 6px;}
+.btn-courses-page:hover{background:rgba(37,99,235,0.08);}
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:2.5rem;text-align:center;}
+footer p{color:var(--muted);font-size:13px;line-height:1.8;}
+footer a{color:var(--muted2);text-decoration:none;}
+footer span{color:var(--gold);}
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+/* TOAST */
+.toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(80px);background:#1a2e46;border:1px solid var(--border2);color:var(--white);padding:14px 24px;border-radius:12px;font-size:14px;z-index:999;transition:transform 0.4s cubic-bezier(0.34,1.56,0.64,1),opacity 0.4s;opacity:0;display:flex;align-items:center;gap:10px;}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
 
-    <title> Dikshant's Portfolio </title>
+/* RESPONSIVE */
+@media(max-width:768px){
+  .about-wrap{grid-template-columns:1fr;}
+  .avatar{width:200px;height:200px;}
+  .avatar-initials{font-size:60px;}
+  .consult-grid{grid-template-columns:1fr;}
+  .contact-wrap{grid-template-columns:1fr;}
+  .follow-strip{grid-template-columns:1fr;}
+  .hero-metrics{flex-wrap:wrap;gap:1rem;}
+  .metric{border-right:none;padding:0 1rem;}
+  .nav-links{display:none;}
+}
+</style>
 </head>
-
 <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Dikshant</a>
 
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item ">
-                        <a href="#home" class="nav__link">
-                            <i class='bx bx-home'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item ">
-                        <a href="#about" class="nav__link">
-                            <i class='bx bx-user'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-book'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">
-                            <i class='bx bx-briefcase-alt-2'></i>
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bx-message-square-dots'></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!--=============== theme change button ===============-->
-            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
-
-        </nav>
-    </header>
-
-    <!--=============== MAIN ===============-->
-    <main class="main">
-        <!--=============== HOME ===============-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <span class="home__greeting">Hello, I'm</span>
-                    <h1 class="home__name">Dikshant</h1>
-                    <h3 class="home__education">Full Stack Web Developer</h3>
-
-                    <div class="home__button">
-                        <a download="" href="assets/pdf/Resume_Dikshant.pdf" class="button button--ghost">
-                            Download CV
-                        </a>
-
-                        <a href="#about" class="button">About</a>
-                    </div>
-                </div>
-
-                <!-- <div class="home__handle"> -->
-                    <img src="assets/img/myimg.jpg" alt="" class="home__handle">
-                <!-- </div> -->
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/" target="_blank" class="home__social-link">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                    <a href="https://github.com/Dikshant23529" target="_blank" class="home__social-link">
-                        <i class='bx bxl-github'></i>
-                    </a>
-                    <!-- <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-dribbble'></i>
-                    </a> -->
-                </div>
-
-                <a href="#about" class="home__scroll">
-                    <i class='bx bx-mouse home__scroll-icon'></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                </a>
-            </div>
-        </section>
-
-        <!--=============== ABOUT ===============-->
-        <section class="about section" id="about">
-            <span class="section__subtitle">My Intro</span>
-            <h2 class="section__title">About Me</h2>
-
-            <div class="about__container container grid">
-                <img src="assets/img/myimg.JPG" alt="" class="about__img">
-
-                <div class="about__data">
-                    <div class="about__info">
-                        <div class="about__box">
-                            <i class='bx bx-award about__icon'></i>
-                            <h3 class="about__title">Experience</h3>
-                            <span class="about__subtitle">2 Years Working</span>
-                        </div>
-                        <div class="about__box">
-                            <i class='bx bx-briefcase-alt about__icon'></i>
-                            <h3 class="about__title">Completed</h3>
-                            <span class="about__subtitle">48+ Projects</span>
-                        </div>
-                        <div class="about__box">
-                            <i class='bx bx-support about__icon'></i>
-                            <h3 class="about__title">Support</h3>
-                            <span class="about__subtitle">Online 24/7</span>
-                        </div>
-                    </div>
-
-                    <p class="about__description">
-                        Backend Full Stack Java Developer. I specialize in building robust server-side applications and managing databases. With extensive experience in Java and various backend technologies, I ensure seamless integration and efficient performance. My expertise has consistently delivered reliable solutions, and numerous clients have praised the quality and reliability of my work.
-                    </p>
-
-                    <a href="#contact" class="button about__button-contact">Contact Me</a>
-                </div>
-            </div>
-        </section>
-
-        <!--=============== SKILLS ===============-->
-        <section class="skills section" id="skills">
-            <span class="section__subtitle">My Abilities</span>
-            <h2 class="section__title">My Experience</h2>
-
-            <div class="skills__container container grid">
-                <div class="skills__content">
-                    <h3 class="skills__title">Frontend Development</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">HTML / CSS</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">React / Next</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Javascript</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Bootstrap / Tailwind</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Git</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Angular</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills__content">
-                    <h3 class="skills__title">Backend Development</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Java</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Spring Boot</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">MySQL</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Hibernate</h3>
-                                    <span class="skills__level">Intermediate</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Node js</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Mongo DB</h3>
-                                    <span class="skills__level">Advanced</span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <!--=============== SERVICES ===============-->
-        <section class="services section">
-            <span class="section__subtitle">My Services</span>
-            <h2 class="section__title">What I Offer</h2>
-
-            <div class="services__container container grid">
-                <div class="services__card">
-                    <div class="serv">
-                        <h3 class="services__title">Product <br> Designing</h3>
-
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Product Designing</h3>
-
-                            <p class="services__modal-description">
-                                I design and develop the consumer products with creative ability and
-                                hands-on approach which stisfies the customers' and markets' needs and trends.
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I develop the user interfaces.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Web Page design and development.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I create the UX element interactions.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I position your company brand.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Create modern 3-D experiences.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">Backend <br> Development</h3>
-
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Backend Development</h3>
-
-                            <p class="services__modal-description">
-                                I design and develop the consumer products with creative ability and
-                                hands-on approach which stisfies the customers' and markets' needs and trends.
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I develop the robust backend.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Web application and development.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I create the safe & secure products.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I position your company brand.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Create modern robust backend system.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">Visual <br> Designing</h3>
-
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Visual Designing</h3>
-
-                            <p class="services__modal-description">
-                                I design and develop the consumer products with creative ability and
-                                hands-on approach which stisfies the customers' and markets' needs and trends.
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I develop the user interfaces.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Web Page design and development.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I create the UX element interactions.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I position your company brand.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Create modern 3-D experiences.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--=============== WORK ===============-->
-        <section class="work section" id="work">
-            <span class="section__subtitle">My Portfolio</span>
-            <h2 class="section__title">Recent Works</h2>
-
-            <div class="work__filters">
-                <span class="work__item active-work" data-filter='all'>All</span>
-                <span class=" work__item" data-filter='.web'>Full Stack Web Application</span>
-                <span class=" work__item" data-filter='.movil'>Backend API Design</span>
-                <span class=" work__item" data-filter='.design'>Web Site</span>
-            </div>
-
-            <div class="work__container container grid">
-                <div class="work__card mix web">
-                    <img src="assets/img/work1.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">ATS</h3>
-
-                    <a target="_blank" href="https://github.com/Dikshant23529" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix movil">
-                    <img src="assets/img/work2.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Tracker</h3>
-
-                    <a target="_blank" href="https://github.com/Dikshant23529" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix design">
-                    <img src="assets/img/work3.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">SCM</h3>
-
-                    <a target="_blank" href="https://github.com/Dikshant23529" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix web">
-                    <img src="assets/img/work4.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">Dev Protofolio</h3>
-
-                    <a target="_blank" href="https://github.com/Dikshant23529" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-                <div class="work__card mix movil">
-                    <img src="assets/img/work5.jpg" alt="" class="work__img">
-
-                    <h3 class="work__title">HelpDesk</h3>
-
-                    <a target="_blank" href="https://github.com/Dikshant23529" class="work__button">
-                        Demo <i class='bx bx-right-arrow work__icon'></i>
-                    </a>
-                </div>
-
-            </div>
-        </section>
-
-        <!--=============== TESTIMONIALS ===============-->
-        <section class="testimonial section">
-            <span class="section__subtitle">My clients say</span>
-            <h2 class="section__title">Testimonials</h2>
-
-            <div class="testimonial__container container swiper">
-                <div class="swiper-wrapper">
-                    <div class="testimonial__card swiper-slide">
-                        <img target_blank="" src="assets/img/testimonial3.png" alt="test1" class="testimonial__img">
-
-                        <h3 class="testimonial__name">lorem</h3>
-                        <p class="testimonial__description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint necessitatibus blanditiis impedit velit magni consequatur, pariatur illum omnis eius iste consequuntur repellat aliquam! Autem, iste?
-                        </p>
-                    </div>
-
-                    <div class="testimonial__card swiper-slide">
-                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
-
-                        <h3 class="testimonial__name">lorem</h3>
-                        <p class="testimonial__description">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, reprehenderit cumque ea illo officia, illum, deleniti esse neque cum provident enim aspernatur natus nulla aliquid?
-                        </p>
-                    </div>
-
-                    <div class="testimonial__card swiper-slide">
-                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
-
-                        <h3 class="testimonial__name">lorem</h3>
-                        <p class="testimonial__description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, illum error debitis dolore provident consectetur voluptatibus totam veniam dignissimos nam quis iure vitae quia id.
-                        </p>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </section>
-
-        <!--=============== CONTACT ===============-->
-        <section class="contact section" id="contact">
-            <sapn class="section__subtitle">Get in touch</sapn>
-            <h3 class="section__title">Contact Me</h3>
-
-            <div class="contact__container container grid">
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-info">Talk to me</h3>
-
-                    <div class="contact__info">
-                        <div class="contact__card">
-                            <i class='bx bx-mail-send contact__card-icon'></i>
-                            <h3 class="contact__card-title">Email</h3>
-                            <span class="contact__card-data">latherdikshant0@gmail.com</span>
-
-                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-whatsapp contact__card-icon'></i>
-                            <h3 class="contact__card-title">Whatsapp</h3>
-                            <span class="contact__card-data">7999000024</span>
-
-                            <a href="https://api.whatsapp.com/send?phone=+917999000024&text=Hey there!" target="_blank"
-                                class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-linkedin contact__card-icon'></i>
-                            <h3 class="contact__card-title">linkedin</h3>
-                            <span class="contact__card-data">Dikshant</span>
-
-                            <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/" target="_blank" class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
-
-                    <form method="post" action="https://formspree.io/f/xyyvnopb" class="contact__form">
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Name</label>
-                            <input type="text" placeholder="Enter name" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div">
-                            <label for="" class="contact__form-tag">Mail</label>
-                            <input type="text" placeholder="Enter email" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div contact__form-area">
-                            <label for="" class="contact__form-tag">Message</label>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
-                                class="contact__form-input "></textarea>
-                        </div>
-
-
-                        <button class="button">
-                            Send Message
-                        </button>
-                    </form>
-
-                </div>
-
-        </section>
-    </main>
-
-    <!--=============== FOOTER ===============-->
-    <footer class="footer">
-        <div class="footer__container container">
-            <h1 class="footer__title">Dikshant</h1>
-
-            <ul class="footer__list">
-
-                <li class="footer__item">
-                    <a href="#" class="footer__link">Home</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#skills" class="footer__link">Skills</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#work" class="footer__link">Work</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#contact" class="footer__link">Contact</a>
-                </li>
-            </ul>
-
-            <ul class="footer__social">
-                <li class="footer__social-item">
-                    <a href="https://github.com/Dikshant23529" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-github footer__social-icon'></i>
-                    </a>
-                </li>
-                <!-- <li class="footer__social-item">
-                    <a href="#" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-twitter footer__social-icon'></i>
-                    </a>
-                </li> -->
-                <li class="footer__social-item">
-                    <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-linkedin footer__social-icon'></i>
-                    </a>
-                </li>
-                <!-- <li class="footer__social-item">
-                    <a href="#" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-instagram footer__social-icon'></i>
-                    </a>
-                </li> -->
-            </ul>
-
-            <span class="footer__copy">
-                &#169; Dikshant Protofolio 2024. All rights reserved.
-            </span>
+<nav id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">Dikshant<span> Lather</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#certifications">Certs</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Work</a>
+      <a href="#blog">Blog</a>
+      <a href="#courses">Courses</a>
+      <a href="#consult">Consult</a>
+      <a href="#contact" class="nav-cta">Book a Call</a>
+    </div>
+  </div>
+</nav>
+
+<header role="banner">
+<!-- HERO -->
+<section id="hero" aria-label="Introduction">
+  <div class="grid-lines"></div>
+  <div class="hero-glow"></div>
+  <div class="scan"></div>
+  <div class="hero-content">
+    <div class="hero-badge"><span class="badge-dot"></span>Open to Consulting Engagements</div>
+    <h1 class="hero-title">AI & Cybersecurity Consultant<br><span class="accent">Securing the Digital Future</span></h1>
+    <p class="hero-sub">Certified security professional specializing in cloud security, threat intelligence, and enterprise risk advisory — helping organizations stay protected in an evolving threat landscape.</p>
+    <div class="hero-actions">
+      <a href="#consult" class="btn-primary"><i class="ti ti-calendar"></i> Book a Consultation</a>
+      <a href="#projects" class="btn-ghost"><i class="ti ti-briefcase"></i> View Work</a>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric"><div class="metric-num">8</div><div class="metric-label">MS Certifications</div></div>
+      <div class="metric"><div class="metric-num">5+</div><div class="metric-label">Years Experience</div></div>
+      <div class="metric"><div class="metric-num">30+</div><div class="metric-label">Engagements</div></div>
+      <div class="metric"><div class="metric-num">Global</div><div class="metric-label">Client Base</div></div>
+    </div>
+  </div>
+</section>
+
+</section>
+</header>
+
+<main id="main-content" role="main">
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <div class="about-wrap reveal">
+      <div class="avatar-box">
+        <div class="avatar"><div class="avatar-initials">DL</div></div>
+        <div class="avatar-badge">Cybersecurity Consultant</div>
+      </div>
+      <div class="about-body">
+        <div class="eyebrow">About Me</div>
+        <h2 class="section-title" id="about-heading">Building Trust Through Security</h2>
+        <div class="role">Dikshant Lather (AI & Cybersecurity Consultant)</div>
+        <p>I help organizations understand, manage, and reduce cyber risk. With deep expertise across cloud security, identity management, and compliance frameworks, I deliver strategic security guidance that translates technical complexity into clear business outcomes.</p>
+        <p>Currently engaged with a leading global professional services firm, working with enterprise clients across financial services, healthcare, and critical infrastructure. Certified across the Microsoft security ecosystem with hands-on expertise in Azure, GitHub Advanced Security, and AI governance.</p>
+        <div class="tag-row">
+          <span class="tag">Zero Trust</span><span class="tag">Cloud Security</span><span class="tag">Azure</span><span class="tag">NIST CSF</span><span class="tag">ISO 27001</span><span class="tag">GitHub Security</span><span class="tag">AI Security</span><span class="tag">IAM</span><span class="tag">SIEM</span><span class="tag">Risk Advisory</span>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!--=============== SCROLLREVEAL ===============-->
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Credentials</div>
+      <h2 class="section-title">Microsoft Certifications</h2>
+      <p class="section-sub">Verified credentials from Microsoft Learn — click any badge to view the official certificate.</p>
+    </div>
+    <div class="certs-grid">
+      <a class="cert-card reveal reveal-delay-1" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/96E71135850A9443?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-ms"><i class="ti ti-shield-check" style="color:#0078D4;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>Security Operations Analyst Associate</h3><span>SC-200 · Microsoft Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-2" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/C4FDCE48826ACC19?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-ms"><i class="ti ti-lock" style="color:#0078D4;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>Security, Compliance & Identity Fundamentals</h3><span>SC-900 · Microsoft Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-3" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/3A96EB6EB6B7841E?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-ms"><i class="ti ti-cloud" style="color:#0078D4;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>Azure Fundamentals</h3><span>AZ-900 · Microsoft Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-4" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/D3DFEFE2C3F448D2?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-ms"><i class="ti ti-brain" style="color:#0078D4;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>Azure AI Fundamentals</h3><span>AI-900 · Microsoft Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-1" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/EB59143043969A0?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-ms"><i class="ti ti-robot" style="color:#0078D4;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>M365 Copilot & Agent Administration</h3><span>Fundamentals · Microsoft 365 Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-2" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/475D67675EC613A8?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-gh"><i class="ti ti-brand-github" style="color:#E8E8E8;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>GitHub Copilot</h3><span>GitHub Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-3" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/DC3A5B7D14C17B03?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-gh"><i class="ti ti-shield" style="color:#E8E8E8;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>GitHub Advanced Security</h3><span>GitHub Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+      <a class="cert-card reveal reveal-delay-4" href="https://learn.microsoft.com/api/credentials/share/en-in/Dikshant-7990/ABE308DD7CC4A06C?sharingId=46BD2C4761BEA066" target="_blank" rel="noopener">
+        <div class="cert-icon cert-gh"><i class="ti ti-git-branch" style="color:#E8E8E8;font-size:22px;"></i></div>
+        <div class="cert-body"><h3>GitHub Foundations</h3><span>GitHub Certified</span><div class="cert-verify"><i class="ti ti-circle-check"></i> Verified</div></div>
+      </a>
+    </div>
+  </div>
+</section>
 
-    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Expertise</div>
+      <h2 class="section-title">Core Competencies</h2>
+      <p class="section-sub">Full-lifecycle security expertise — from architecture design to board-level risk communication.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal reveal-delay-1">
+        <div class="skill-icon-wrap"><i class="ti ti-shield-lock" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>Risk & Compliance</h3>
+        <p>NIST CSF, ISO 27001, SOC2, GDPR, PCI-DSS advisory across enterprise environments.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="95"></div></div>
+      </div>
+      <div class="skill-card reveal reveal-delay-2">
+        <div class="skill-icon-wrap"><i class="ti ti-cloud-lock" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>Cloud Security (Azure)</h3>
+        <p>Azure security architecture, CSPM, Defender for Cloud, misconfiguration review and remediation.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="92"></div></div>
+      </div>
+      <div class="skill-card reveal reveal-delay-3">
+        <div class="skill-icon-wrap"><i class="ti ti-user-shield" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>Identity & Access Management</h3>
+        <p>Zero Trust, Azure AD, PAM, MFA, Conditional Access, SSO governance and implementation.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+      </div>
+      <div class="skill-card reveal reveal-delay-4">
+        <div class="skill-icon-wrap"><i class="ti ti-bug" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>Threat Intelligence & SIEM</h3>
+        <p>Microsoft Sentinel, SIEM tuning, threat hunting, MITRE ATT&CK-based adversary simulation.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+      </div>
+      <div class="skill-card reveal reveal-delay-1">
+        <div class="skill-icon-wrap"><i class="ti ti-brand-github" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>GitHub Advanced Security</h3>
+        <p>Code scanning, secret detection, dependency review, GHAS enterprise rollout and policy governance.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="87"></div></div>
+      </div>
+      <div class="skill-card reveal reveal-delay-2">
+        <div class="skill-icon-wrap"><i class="ti ti-report-analytics" style="color:#60A5FA;font-size:24px;"></i></div>
+        <h3>Executive Risk Reporting</h3>
+        <p>Board-level security posture reporting, KRI dashboards, and C-suite advisory communication.</p>
+        <div class="skill-bar"><div class="skill-fill" data-w="93"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Work</div>
+      <h2 class="section-title">Selected Engagements</h2>
+      <p class="section-sub">Confidential engagements across global enterprises — client identities protected per NDA obligations.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="proj-card reveal reveal-delay-1">
+        <div class="proj-top">
+          <div class="proj-type-row"><div class="proj-type">Financial Services</div><div class="proj-confidential"><i class="ti ti-lock" style="font-size:11px;"></i> NDA Protected</div></div>
+        </div>
+        <div class="proj-body">
+          <h3>Zero Trust Architecture Transformation</h3>
+          <p>Designed and implemented a Zero Trust framework for a large-scale financial institution, covering 30,000+ endpoints. Reduced lateral movement risk significantly post-implementation.</p>
+          <div class="ptag-row"><span class="ptag">Zero Trust</span><span class="ptag">Azure AD</span><span class="ptag">IAM</span><span class="ptag">MFA</span><span class="ptag">Conditional Access</span></div>
+        </div>
+      </div>
+      <div class="proj-card reveal reveal-delay-2">
+        <div class="proj-top">
+          <div class="proj-type-row"><div class="proj-type">Healthcare</div><div class="proj-confidential"><i class="ti ti-lock" style="font-size:11px;"></i> NDA Protected</div></div>
+        </div>
+        <div class="proj-body">
+          <h3>Cloud Migration Security & Compliance</h3>
+          <p>Secured cloud migration for a healthcare organization, ensuring regulatory compliance and deploying real-time threat monitoring via Microsoft Defender and Sentinel.</p>
+          <div class="ptag-row"><span class="ptag">Azure</span><span class="ptag">HIPAA</span><span class="ptag">Sentinel</span><span class="ptag">CSPM</span><span class="ptag">Defender</span></div>
+        </div>
+      </div>
+      <div class="proj-card reveal reveal-delay-3">
+        <div class="proj-top">
+          <div class="proj-type-row"><div class="proj-type">Enterprise</div><div class="proj-confidential"><i class="ti ti-lock" style="font-size:11px;"></i> NDA Protected</div></div>
+        </div>
+        <div class="proj-body">
+          <h3>GitHub Advanced Security Enterprise Rollout</h3>
+          <p>Led GHAS adoption across a 500-developer organization — implemented code scanning, secret scanning, and dependency review policies, reducing critical vulnerabilities by 60%.</p>
+          <div class="ptag-row"><span class="ptag">GHAS</span><span class="ptag">GitHub</span><span class="ptag">DevSecOps</span><span class="ptag">SAST</span><span class="ptag">Secrets</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
+<!-- BLOG -->
+<section id="blog">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Insights</div>
+      <h2 class="section-title">Latest Writing</h2>
+      <p class="section-sub">Thoughts on cybersecurity strategy, cloud security, and the evolving threat landscape — on Medium and LinkedIn.</p>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card reveal reveal-delay-1">
+        <div class="blog-src"><span class="src-pill src-medium">Medium</span></div>
+        <h3>Why Zero Trust Is Not a Product — It's a Philosophy</h3>
+        <p>Breaking down misconceptions enterprise buyers have about Zero Trust and what a real maturity roadmap looks like.</p>
+        <div class="blog-footer">
+          <span class="blog-meta">Cloud Security · 8 min</span>
+          <!-- TODO: Replace with your actual Medium article URL -->
+          <a href="https://medium.com/@latherdikshant0" target="_blank" class="blog-link">Read <i class="ti ti-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog-card reveal reveal-delay-2">
+        <div class="blog-src"><span class="src-pill src-linkedin">LinkedIn</span></div>
+        <h3>The CISO's Dilemma: Communicating Cyber Risk to the Board</h3>
+        <p>Practical frameworks for translating technical vulnerabilities into business risk language that resonates with leadership.</p>
+        <div class="blog-footer">
+          <span class="blog-meta">Risk Management · 6 min</span>
+          <!-- TODO: Replace with your actual LinkedIn article URL -->
+          <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeU2PofBSTAWx%2FGKQlRvXgg%3D%3D" target="_blank" class="blog-link">Read <i class="ti ti-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="blog-card reveal reveal-delay-3">
+        <div class="blog-src"><span class="src-pill src-medium">Medium</span></div>
+        <h3>GitHub Advanced Security: What Every Enterprise Should Know</h3>
+        <p>How GHAS closes the gap between developer velocity and security posture — and how to drive adoption at scale.</p>
+        <div class="blog-footer">
+          <span class="blog-meta">DevSecOps · 10 min</span>
+          <!-- TODO: Replace with your actual Medium article URL -->
+          <a href="https://medium.com/@latherdikshant0" target="_blank" class="blog-link">Read <i class="ti ti-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="follow-strip reveal">
+      <div class="follow-card">
+        <h4>Follow on Medium</h4>
+        <p>In-depth articles on cloud security, Zero Trust, and enterprise risk advisory.</p>
+        <!-- TODO: Replace with your Medium profile URL -->
+        <a href="https://medium.com/@latherdikshant0" target="_blank" class="btn-medium-sm"><i class="ti ti-brand-medium"></i> Follow on Medium</a>
+      </div>
+      <div class="follow-card">
+        <h4>Connect on LinkedIn</h4>
+        <p>Weekly posts on cybersecurity trends, certifications, and Microsoft security tooling.</p>
+        <!-- TODO: Replace with your LinkedIn profile URL -->
+        <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeU2PofBSTAWx%2FGKQlRvXgg%3D%3D" target="_blank" class="btn-linkedin-sm"><i class="ti ti-brand-linkedin"></i> Connect on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Testimonials</div>
+      <h2 class="section-title">What Clients Say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">Exceptional depth in cloud security architecture. Translated complex risk into a board-ready roadmap that we could actually act on. Rare combination of technical and strategic clarity.</div>
+        <div class="testi-author"><div class="testi-av">TJ</div><div><div class="testi-name">Thomas Jacab</div><div class="testi-role">SVP, Info Edge</div></div></div>
+      </div>
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">The GitHub Advanced Security rollout was smooth and professional. Compliance gaps we'd been struggling with for months were resolved in weeks. Highly recommend for any DevSecOps engagement.</div>
+        <div class="testi-author"><div class="testi-av">ST</div><div><div class="testi-name">Shreyas Thomas</div><div class="testi-role">Co-Founder, Zwayam</div></div></div>
+      </div>
+      <div class="testi-card reveal reveal-delay-3">
+        <div class="stars">★★★★★</div>
+        <div class="testi-quote">Brought structure and confidence to a very uncertain situation. The Azure security assessment identified exactly the right priorities and the remediation plan was practical and well-prioritized.</div>
+        <div class="testi-author"><div class="testi-av">SK</div><div><div class="testi-name">Siva Kumar</div><div class="testi-role">Senior Manager, Naukri</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONSULT -->
+<section id="consult">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Work With Me</div>
+      <h2 class="section-title">Let's Solve Your Security Challenge</h2>
+      <p class="section-sub">Structured consulting options — from a free discovery call to a full enterprise engagement.</p>
+    </div>
+    <div class="consult-grid">
+      <div class="c-card reveal reveal-delay-1">
+        <div class="c-eyebrow free">Free · 30 Minutes</div>
+        <h3>Discovery Call</h3>
+        <p>Not sure where to start? Let's discuss your security posture — I'll give you a direction with no obligation.</p>
+        <ul class="c-list">
+          <li><i class="ti ti-check"></i> Current risk landscape overview</li>
+          <li><i class="ti ti-check"></i> Identify your top 3 priorities</li>
+          <li><i class="ti ti-check"></i> Clear next steps & recommendations</li>
+        </ul>
+        <a href="#contact" class="btn-blue-outline" onclick="prefill('Discovery')"><i class="ti ti-calendar"></i> Schedule Free Call</a>
+        <div class="book-note">No commitment required</div>
+      </div>
+      <div class="c-card highlight reveal reveal-delay-2">
+        <div class="c-eyebrow paid">Most Requested</div>
+        <h3>Security Advisory Engagement</h3>
+        <p>Full-scope consulting from initial assessment through implementation support and executive reporting.</p>
+        <ul class="c-list">
+          <li><i class="ti ti-check"></i> Security maturity assessment</li>
+          <li><i class="ti ti-check"></i> Gap analysis & risk register</li>
+          <li><i class="ti ti-check"></i> Remediation roadmap</li>
+          <li><i class="ti ti-check"></i> Board / executive presentation</li>
+          <li><i class="ti ti-check"></i> Ongoing advisory support</li>
+        </ul>
+        <a href="#contact" class="btn-gold" onclick="prefill('Advisory')"><i class="ti ti-arrow-right"></i> Start a Conversation</a>
+        <div class="book-note">Typically 4–12 week engagements</div>
+      </div>
+    </div>
+    <div class="li-strip reveal">
+      <h3>Connect on LinkedIn</h3>
+      <p>Follow for weekly insights on enterprise cybersecurity, threat intelligence, and Microsoft security tooling.</p>
+      <!-- TODO: Replace with your LinkedIn URL -->
+      <a href="https://linkedin.com/in/YOUR_HANDLE" target="_blank" class="btn-linkedin-sm" style="display:inline-flex;"><i class="ti ti-brand-linkedin"></i> Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap reveal">
+      <div class="contact-left">
+        <div class="eyebrow">Contact</div>
+        <h2>Get in Touch</h2>
+        <p>Have a security challenge, want to discuss a potential engagement, or just want to connect? I read every message.</p>
+        <div class="contact-items">
+          <!-- TODO: Replace all YOUR_* placeholders below -->
+          <a href="mailto:dikshantlather0012@gmail.com" class="ci">
+            <div class="ci-icon"><i class="ti ti-mail" style="color:#60A5FA;font-size:18px;"></i></div>
+            Connect Via Email
+          </a>
+          <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeU2PofBSTAWx%2FGKQlRvXgg%3D%3D" target="_blank" class="ci">
+            <div class="ci-icon"><i class="ti ti-brand-linkedin" style="color:#60A5FA;font-size:18px;"></i></div>
+            Connect On LinkedIn
+          </a>
+          <a href="https://github.com/Dikshant-7990" target="_blank" class="ci">
+            <div class="ci-icon"><i class="ti ti-brand-github" style="color:#60A5FA;font-size:18px;"></i></div>
+            github.com/dikshant23529
+          </a>
+          <a href="https://medium.com/@latherdikshant0" target="_blank" class="ci">
+            <div class="ci-icon"><i class="ti ti-brand-medium" style="color:#60A5FA;font-size:18px;"></i></div>
+            medium.com/@latherdikshant0
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="form-field">
+          <label>Full Name</label>
+          <input type="text" id="f-name" placeholder="Your name">
+        </div>
+        <div class="form-field">
+          <label>Email Address</label>
+          <input type="email" id="f-email" placeholder="you@company.com">
+        </div>
+        <div class="form-field">
+          <label>I'm looking for…</label>
+          <select id="f-type">
+            <option value="">Select inquiry type</option>
+            <option>Discovery Call (Free)</option>
+            <option>Security Advisory Engagement</option>
+            <option>Need Consultancy — Azure Security</option>
+            <option>Need Consultancy — GitHub Security</option>
+            <option>Need Consultancy — Risk & Compliance</option>
+            <option>Speaking / Workshop</option>
+            <option>Blog / Media Collaboration</option>
+            <option>General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label>Message</label>
+          <textarea id="f-msg" placeholder="Tell me about your security challenge or what you'd like to discuss…"></textarea>
+        </div>
+        <button class="submit-btn" onclick="submitForm()">
+          <i class="ti ti-send"></i> Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- COURSES & YOUTUBE -->
+<section id="courses" aria-labelledby="courses-heading">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Learning Hub</div>
+      <h2 class="section-title" id="courses-heading">Courses & YouTube</h2>
+      <p class="section-sub">Free video content on Azure Security, GitHub Advanced Security, Zero Trust, and SIEM — new videos every week.</p>
+    </div>
+    <div class="courses-grid" style="margin-top:3rem;">
+
+      <a class="course-card reveal reveal-delay-1" href="courses.html" aria-label="Azure Security Fundamentals course">
+        <div class="course-thumb ct-bg1">
+          <i class="ti ti-cloud-lock course-icon-big" style="color:#60A5FA;" aria-hidden="true"></i>
+          <div class="thumb-play-overlay"><div class="play-circle"><div class="play-tri"></div></div></div>
+          <div class="vid-count">12 videos</div>
+          <div class="course-level cl-beg">Beginner</div>
+        </div>
+        <div class="course-body">
+          <div class="course-cat">Azure Security</div>
+          <h3>Azure Security Fundamentals — SC-900 & AZ-900 Prep</h3>
+          <p>Complete guide to Azure security, compliance, and identity. Perfect for certification prep.</p>
+          <div class="course-footer">
+            <div class="course-stats">
+              <div class="cs-item"><i class="ti ti-video"></i> 12</div>
+              <div class="cs-item"><i class="ti ti-clock"></i> 4.5h</div>
+            </div>
+            <div class="yt-chip"><i class="ti ti-brand-youtube"></i> YouTube</div>
+          </div>
+        </div>
+      </a>
+
+      <a class="course-card reveal reveal-delay-2" href="courses.html" aria-label="GitHub Advanced Security course">
+        <div class="course-thumb ct-bg2">
+          <i class="ti ti-brand-github course-icon-big" style="color:#E8E8E8;" aria-hidden="true"></i>
+          <div class="thumb-play-overlay"><div class="play-circle"><div class="play-tri"></div></div></div>
+          <div class="vid-count">9 videos</div>
+          <div class="course-level cl-int">Intermediate</div>
+        </div>
+        <div class="course-body">
+          <div class="course-cat">GitHub Security</div>
+          <h3>GitHub Advanced Security — Complete Enterprise Guide</h3>
+          <p>Code scanning, secret detection, dependency review, and GHAS enterprise rollout strategy.</p>
+          <div class="course-footer">
+            <div class="course-stats">
+              <div class="cs-item"><i class="ti ti-video"></i> 9</div>
+              <div class="cs-item"><i class="ti ti-clock"></i> 3.5h</div>
+            </div>
+            <div class="yt-chip"><i class="ti ti-brand-youtube"></i> YouTube</div>
+          </div>
+        </div>
+      </a>
+
+      <a class="course-card reveal reveal-delay-3" href="courses.html" aria-label="Zero Trust Architecture course">
+        <div class="course-thumb ct-bg3">
+          <i class="ti ti-shield-lock course-icon-big" style="color:#A78BFA;" aria-hidden="true"></i>
+          <div class="thumb-play-overlay"><div class="play-circle"><div class="play-tri"></div></div></div>
+          <div class="vid-count">8 videos</div>
+          <div class="course-level cl-int">Intermediate</div>
+        </div>
+        <div class="course-body">
+          <div class="course-cat">Zero Trust</div>
+          <h3>Zero Trust Architecture — Enterprise Implementation</h3>
+          <p>Step-by-step Zero Trust framework using Microsoft tooling. Identity, Device, Network, and App pillars.</p>
+          <div class="course-footer">
+            <div class="course-stats">
+              <div class="cs-item"><i class="ti ti-video"></i> 8</div>
+              <div class="cs-item"><i class="ti ti-clock"></i> 4h</div>
+            </div>
+            <div class="yt-chip"><i class="ti ti-brand-youtube"></i> YouTube</div>
+          </div>
+        </div>
+      </a>
+
+      <a class="course-card reveal reveal-delay-4" href="courses.html" aria-label="Microsoft Sentinel SIEM course">
+        <div class="course-thumb ct-bg4">
+          <i class="ti ti-radar-2 course-icon-big" style="color:#FCD34D;" aria-hidden="true"></i>
+          <div class="thumb-play-overlay"><div class="play-circle"><div class="play-tri"></div></div></div>
+          <div class="vid-count">11 videos</div>
+          <div class="course-level cl-adv">Advanced</div>
+        </div>
+        <div class="course-body">
+          <div class="course-cat">SIEM & Threat Intelligence</div>
+          <h3>Microsoft Sentinel — Threat Hunting Masterclass</h3>
+          <p>Advanced SIEM ops with KQL queries, MITRE ATT&CK mapping, and automated incident response.</p>
+          <div class="course-footer">
+            <div class="course-stats">
+              <div class="cs-item"><i class="ti ti-video"></i> 11</div>
+              <div class="cs-item"><i class="ti ti-clock"></i> 5h</div>
+            </div>
+            <div class="yt-chip"><i class="ti ti-brand-youtube"></i> YouTube</div>
+          </div>
+        </div>
+      </a>
+
+    </div>
+    <div class="courses-cta-bar reveal">
+      <h3>40+ Free Videos & Growing</h3>
+      <p>Subscribe to get notified when new tutorials drop every week.</p>
+      <!-- TODO: Replace with your YouTube channel URL -->
+      <a href="https://www.youtube.com/@YOUR_CHANNEL" target="_blank" rel="noopener" class="btn-yt-main"><i class="ti ti-brand-youtube"></i> Subscribe on YouTube</a>
+      <a href="courses.html" class="btn-courses-page"><i class="ti ti-layout-grid"></i> View All Playlists</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer role="contentinfo">
+  <p>© 2026 <span>Dikshant Sharma</span> · Cybersecurity Consultant · Microsoft Certified ·
+    <a href="https://github.com/dikshant23529" target="_blank">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/dikshant-lather-48b37b21a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeU2PofBSTAWx%2FGKQlRvXgg%3D%3D" target="_blank">LinkedIn</a>
+  </p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// Nav scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 40);
+});
+
+// Scroll reveal + skill bars
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('active');
+      e.target.querySelectorAll('.skill-fill').forEach(f => {
+        setTimeout(() => { f.style.width = f.dataset.w + '%'; }, 300);
+      });
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Toast notification
+function showToast(msg, ok) {
+  const t = document.getElementById('toast');
+  t.innerHTML = (ok
+    ? '<i class="ti ti-circle-check" style="color:#22C55E;font-size:18px;"></i>'
+    : '<i class="ti ti-alert-circle" style="color:#F87171;font-size:18px;"></i>') + ' ' + msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+// Pre-fill contact form from consult buttons
+function prefill(type) {
+  setTimeout(() => {
+    const sel = document.getElementById('f-type');
+    if (sel) {
+      for (let o of sel.options) {
+        if (o.text.toLowerCase().includes(type.toLowerCase())) {
+          sel.value = o.value;
+          break;
+        }
+      }
+    }
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  }, 100);
+}
+
+// Contact form submit
+function submitForm() {
+  const name = document.getElementById('f-name').value.trim();
+  const email = document.getElementById('f-email').value.trim();
+  const type = document.getElementById('f-type').value;
+  const msg = document.getElementById('f-msg').value.trim();
+  if (!name || !email || !msg) { showToast('Please fill in your name, email, and message.', false); return; }
+  const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  if (!emailOk) { showToast('Please enter a valid email address.', false); return; }
+  // TODO: Replace this with your actual form submission logic (e.g. EmailJS, Formspree, etc.)
+  // Example with Formspree: fetch('https://formspree.io/f/YOUR_ID', { method:'POST', body: JSON.stringify({name,email,type,msg}), headers:{'Content-Type':'application/json'} })
+  showToast("Message sent! I'll get back to you within 24 hours.", true);
+  document.getElementById('f-name').value = '';
+  document.getElementById('f-email').value = '';
+  document.getElementById('f-type').value = '';
+  document.getElementById('f-msg').value = '';
+}
+</script>
 </body>
-
 </html>
